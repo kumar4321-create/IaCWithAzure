@@ -6,4 +6,7 @@ terraform {
     key                  = "dev.terraform.tfstate"
   }
 }
-
+provider "azurerm" {
+  version         = ">= 2.0"
+  features {}
+}
